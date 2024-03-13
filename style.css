@@ -1,0 +1,28 @@
+header{
+    background: url(/Imagenes/deposito.jpg) 50% 0 fixed ;
+    background-size: cover;
+    min-height: 400px;
+    color: #eeeeee;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items:start;
+    /*padding: 0px 50px;*/
+}
+
+#lista{
+    color: white;
+    font-size: .8em;
+    text-shadow: 1px 1px gray, 2px 2px black;
+}
+#volver{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+    z-index: 9;
+}
+.card{
+    width: 14rem;
+}
